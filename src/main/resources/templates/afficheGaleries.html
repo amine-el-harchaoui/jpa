@@ -19,7 +19,7 @@
 	<!--/* On appelle l'URL 'add' du contrôleur */-->
 	<a th:href="@{add}" href='formulaireGalerie.html'>Ajouter une galerie</a>
 	<!--/* On affiche un éventuel message d'erreur */-->
-	<h3 th:text="${message}">Message de succès ou d'erreur</h3>
+	<h3 th:text="${message}">Message</h3>
 	<ul>
 		<!--/* Pour chaque galerie dans la liste 'galeries' transmise par le contrôleur */-->
 		<li th:each="g: ${galeries}">

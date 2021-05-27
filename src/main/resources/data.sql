@@ -6,7 +6,7 @@ INSERT INTO Galerie(id, nom, adresse) VALUES
 
 INSERT INTO Exposition(id, intitule, debut, duree, organisateur_id) VALUES
     (1, 'Painters'' painters', NOW(), 10, 1),
-    (2, 'From Selfie to Self-Expression', NOW(), 10, 1);
+    (2, 'From Selfie to Self-Expression',NOW() , 10, 1);
 
 -- On a choisi la stratégie 'SINGLE_TABLE' pour l'héritage
 INSERT INTO Personne(DTYPE, id, nom, adresse, biographie) VALUES
